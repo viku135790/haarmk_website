@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.fou-digital-main-who {
+    height: 690px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+
+
+}
+
+.fou-digi-first-who {
+    width: 45%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.fou-digi-first-who :nth-child(1) {
+    font-size: 4em;
+    font-weight: bold;
+    color: black;
+    line-height: 60px;
+}
+
+.fou-digi-first-who :nth-child(2) {
+    font-size: 1.3em;
+    color: black;
+}
+
+.fou-digi-first-who button {
+    height: 4rem;
+    width: 15rem;
+    font-size: 1.3em;
+    font-weight: bold;
+    border: none;
+    border-radius: 40px;
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+
+.fou-digi-second-who {
+    width: 45%;
+    height: 80%;
+    background-image: url(../../images/uiux.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@media (min-width: 650px) and (max-width: 1200px) {
+    .fou-digi-first-who :nth-child(1) {
+        font-size: 3em;
+        font-weight: bold;
+
+        line-height: 50px;
+    }
+
+    .fou-digi-first-who :nth-child(2) {
+        font-size: 1.2em;
+
+    }
+}
+
+@media (min-width: 350px) and (max-width: 750px) {
+
+    .fou-digital-main-who {
+        height: auto;
+        flex-direction: column;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .fou-digi-second-who {
+        width: 90%;
+        height: 600px;
+    }
+
+    .fou-digi-first-who {
+        width: 90%;
+    }
+
+
+    .fou-digi-first-who :nth-child(1) {
+        font-size: 3em;
+
+    }
+
+}

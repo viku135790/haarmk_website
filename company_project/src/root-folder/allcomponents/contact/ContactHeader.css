@@ -1,0 +1,79 @@
+.contact-us-main {
+    min-height: 50rem;
+    width: 100%;
+    display: flex;
+    background-image: url(../../images/cont-head.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.contact-us-child1 {
+    color: rgb(48, 48, 255);
+    font-size: 4rem;
+    text-align: center;
+    height: 100%;
+    width: 55%;
+    padding-top: 13rem;
+    font-weight: 550;
+}
+
+.contact-us-child2 {
+    width: 45%;
+}
+
+@media only screen and (min-width: 414px) and (max-width: 768px) {
+    .contact-us-main {
+        min-height: 20rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-us-child1 {
+        font-size: 2rem;
+        padding-top: 0rem;
+        text-align: center;
+        font-weight: bold;
+        height: 50%;
+        width: 100%;
+        color: black;
+    }
+
+    .contact-us-child1 {
+        font-size: 2rem;
+        text-align: center;
+        height: 100%;
+        width: 55%;
+        padding-top: 10rem;
+    }
+
+
+}
+
+@media only screen and (max-width: 414px) {
+
+    .contact-us-main {
+        min-height: 20rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-us-child1 {
+        font-size: 2rem;
+        padding-top: 3rem;
+        text-align: center;
+        font-weight: bold;
+        height: 50%;
+        width: 100%;
+        color: black;
+    }
+
+
+}

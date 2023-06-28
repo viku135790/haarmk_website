@@ -1,0 +1,49 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header-content-main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 2rem;
+  height: 44.7rem;
+  color: white;
+  padding: 1rem;
+}
+
+.header-content-main h1{
+  font-size: 4.4em;
+}
+
+.header-content-main h1 span{
+  color: red;
+}
+
+.header-content-main p{
+  font-size: 2em;
+}
+.header-content-main button{
+  background-color: #0000FF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  height: 60px;
+  width: 180px;
+  font-size: 22px;
+  border-radius: 35px;
+}
+
+.header-content-main{
+  background-color: rgba(0, 0, 0, 0.395);
+}
+
+@media (min-width: 350px) and (max-width: 600px){
+  .header-content-main h1{
+    padding-top: 2rem;
+    font-size: 3em;
+  }
+}

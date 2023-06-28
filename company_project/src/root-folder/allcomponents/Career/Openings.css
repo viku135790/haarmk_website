@@ -1,0 +1,242 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.open-our-pro-mai-con {
+    height: auto;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    align-items: center;
+
+}
+
+.open-project-p {
+    color: red;
+}
+
+
+.open-our-poj-port {
+    font-size: 5em;
+    font-weight: bold;
+    text-decoration: underline red;
+    color: rgb(47, 47, 47);
+}
+
+/* .first-conta-group {
+    clip-path: polygon(5% 0%, 100% 0, 100% 75%, 95% 100%, 0 100%, 0 22%);
+    width: 75%;
+    height: 270px;
+    background-color: white;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    display: flex;
+    align-items: center;
+    transition: transform 1s ease-in-out;
+    cursor: pointer;
+    animation: tiltAnimation 0.3s ease-in-out infinite alternate;
+}
+
+
+
+@keyframes tiltAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-1deg);
+    }
+
+    100% {
+        transform: rotate(1deg);
+    }
+}
+.first-conta-group:hover {
+   transform: scale(0.95) rotate(0deg);
+  animation: none;
+} */
+
+.open-first-conta-group {
+    clip-path: polygon(5% 0%, 100% 0, 100% 75%, 95% 100%, 0 100%, 0 22%);
+    width: 75%;
+    min-height: 300px;
+    background-image: linear-gradient(45deg, rgb(235, 238, 249), rgb(203, 239, 247), rgb(189, 199, 231));
+    padding-left: 4rem;
+    padding-right: 4rem;
+    display: flex;
+    align-items: center;
+    transition: transform .5s ease-in-out;
+    cursor: pointer;
+    color: black;
+    height: auto;
+}
+
+
+.open-first-conta-group:hover {
+    transform: scale(0.95) rotate(0deg);
+}
+
+
+
+
+.open-ractanngle-design {
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.open-ractanngle-design-seco {
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.open-image-portfo {
+    width: 23%;
+    height: 100%;
+    background-image: url(/src/root-folder/images/child.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.open-image-portfo-sec {
+    width: 23%;
+    height: 100%;
+    background-image: url(/src/root-folder/images/child.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.open-portfolio-conte-btn {
+    width: 76%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+.open-portfolio-conte-btn-seco {
+    width: 76%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+.open-proj-headin {
+    width: 100%;
+    height: auto;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.open-proj-headin-cone {
+    font-size: 1.4em;
+    width: 100%;
+}
+
+.open-portfolio-conte-btn button {
+    height: 60px;
+    width: 16rem;
+    border: none;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    transition: .3s ease-in-out;
+    font-size: 22px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.open-portfolio-conte-btn button:hover {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+.open-portfolio-conte-btn-seco button {
+    height: 60px;
+    width: 16rem;
+    border: none;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    transition: .3s ease-in-out;
+    font-size: 22px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.open-portfolio-conte-btn-seco button:hover {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+
+@media (min-width: 350px) and (max-width: 750px) {
+
+    .open-first-conta-group {
+        clip-path: polygon(12% 0%, 100% 0, 100% 92%, 85% 100%, 0 100%, 0 5%);
+        width: 95%;
+        height: 55rem;
+        flex-direction: column;
+        padding-top: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .open-ractanngle-design {
+        height: 100%;
+
+    }
+
+    .open-portfolio-conte-btn {
+        width: 100%;
+        height: 50%;
+    }
+
+    .open-image-portfo {
+        width: 100%;
+        height: 40%;
+    }
+
+    .open-ractanngle-design-seco {
+        height: 100%;
+    }
+
+    .open-portfolio-conte-btn-seco {
+        width: 100%;
+        height: 50%;
+    }
+
+    .open-image-portfo-sec {
+        width: 100%;
+        height: 40%;
+    }
+
+
+
+
+}
+
+@media (min-width: 750px) and (max-width: 1400px) {
+    .open-first-conta-group {
+        width: 85%;
+        min-height: 390px;
+    }
+}

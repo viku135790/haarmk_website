@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.login-main-container{
+    min-height: 800px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.332)), url(/src/root-folder/images/login.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.form-login-main{
+    width: 25%;
+    min-height: 27rem;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    margin-left: 60%;
+    border-radius: 5px;
+    /* box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px; */
+    background-color: rgb(255, 255, 255);
+    padding-top: 1rem;
+}
+
+.Already-have{
+    text-decoration: none;
+}
+
+.sign-header{
+    font-size: 1.8em;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.login-data-form{
+    width: 100%;
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+}
+
+.login-data-form input{
+    outline: none;
+    background-color: transparent;
+    border: 1px solid gray;
+    width: 80%;
+    text-indent: 1rem;
+    color: white;
+    height: 3rem;
+}
+
+.login-data-form button{
+    outline: none;
+    background-color: black;
+    width: 50%;
+    color: white;
+    height: 3rem;
+    font-size: 22px;
+    transition: all 0.5s ease-in-out;
+    border-radius: 30px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.login-data-form button:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    width: 80%;
+}
+
+.otherdeta-on-login{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.login-form-sign{
+    font-weight: bold;
+    color: rgb(0, 23, 155);
+    cursor: pointer;
+    
+}
+
+.login-form-sign:hover{
+    text-decoration: underline;
+}
+
+.forgot-password{
+    color: red;
+    cursor: pointer;
+}
+.forgot-password:hover{
+    text-decoration: underline;
+}
+
+@media (min-width: 750px) and (max-width: 1300px) {
+    .form-login-main{
+        width: 38%;
+        margin-left: 48%;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 750px) {
+    .form-login-main{
+        width: 80%;
+        margin-left: 0;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.421), rgba(0, 0, 0, 0.514));
+    }
+    
+    .login-main-container{
+        align-items: center;
+    }
+}

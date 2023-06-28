@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.two2-digital-main {
+
+    height: 650px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    background-image: radial-gradient(circle at 75% center, rgb(228,123,71), rgba(0, 0, 0, 0.951));
+
+}
+
+.two2-digi-first {
+    width: 45%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.two2-digi-first :nth-child(1) {
+    font-size: 4em;
+    font-weight: bold;
+    color: white;
+    line-height: 60px;
+}
+
+.two2-digi-first :nth-child(2) {
+    font-size: 1.3em;
+    color: white;
+}
+
+.two2-digi-first button {
+    height: 4rem;
+    width: 15rem;
+    font-size: 1.3em;
+    font-weight: bold;
+    border: none;
+    border-radius: 40px;
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(71, 0, 71);
+}
+
+
+.two2-digi-second {
+    width: 45%;
+    height: 80%;
+    background-image: url(../../images/ecommerce.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@media (min-width: 650px) and (max-width: 1200px) {
+    .two2-digi-first :nth-child(1) {
+        font-size: 3em;
+        font-weight: bold;
+        color: white;
+        line-height: 50px;
+    }
+
+    .two2-digi-first :nth-child(2) {
+        font-size: 1.2em;
+        color: white;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 750px) {
+
+    .two2-digital-main {
+
+        height: auto;
+        flex-direction: column;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .two2-digi-second {
+        width: 90%;
+        height: 600px;
+    }
+
+    .two2-digi-first {
+        width: 90%;
+    }
+
+    .two2-digi-first :nth-child(1) {
+        font-size: 3em;
+    }
+
+
+}

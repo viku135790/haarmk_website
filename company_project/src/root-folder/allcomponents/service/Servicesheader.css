@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.ser-head{
+    min-height: 800px;
+    width: 100%;
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.418)35%, rgba(0, 0, 0, 0.144)), url(/src/root-folder/images/officelady.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: auto;
+    align-items: center;
+    padding-left: 9rem;
+}
+
+.ser-head-conte{
+    width: 50%;
+    height: auto;
+}
+
+.ser-head-conte :nth-child(1){
+    font-size: 4em;
+    font-weight: bold;
+    color: white;
+
+}
+
+.ser-head-conte :nth-child(2){
+    font-size: 22px;
+    color: white;
+
+}
+
+@media (min-width: 750px) and (max-width: 1400px) {
+
+}
+
+@media (min-width: 350px) and (max-width: 750px) {
+    .ser-head{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.418)35%, rgba(0, 0, 0, 0.144));
+        height: 55rem;
+    }
+
+    .ser-head-conte{
+        margin-top: -2rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 600px;
+        
+    }
+    
+    .ser-head-conte :nth-child(1){
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    .ser-head-conte :nth-child(1){
+        font-size: 3em;
+        margin-top: 8rem;
+    }
+
+
+
+}

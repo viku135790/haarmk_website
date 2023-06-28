@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.thir-digital-main-who {
+    height: 650px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    
+
+}
+
+.thir-digi-first-who {
+    width: 45%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.thir-digi-first-who :nth-child(1) {
+    font-size: 4em;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    line-height: 60px;
+}
+
+.thir-digi-first-who :nth-child(2) {
+    font-size: 1.3em;
+    color: rgb(0, 0, 0);
+}
+
+.thir-digi-first-who button {
+    height: 4rem;
+    width: 15rem;
+    font-size: 1.3em;
+    font-weight: bold;
+    border: none;
+    border-radius: 40px;
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+
+
+.thir-digi-second-who {
+    width: 45%;
+    height: 80%;
+    background-image: url(../../images/SEOO.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@media (min-width: 650px) and (max-width: 1200px) {
+    .thir-digi-first-who :nth-child(1) {
+        font-size: 3em;
+        font-weight: bold;
+        line-height: 50px;
+    }
+
+    .thir-digi-first-who :nth-child(2) {
+        font-size: 1.2em;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 750px) {
+
+    .thir-digital-main-who {
+        height: auto;
+        flex-direction: column;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .thir-digi-second-who {
+        width: 90%;
+        height: 600px;
+    }
+
+    .thir-digi-first-who {
+        width: 90%;
+    }
+
+    .thir-digi-first-who :nth-child(1) {
+        font-size: 3em;
+
+    }
+
+
+}

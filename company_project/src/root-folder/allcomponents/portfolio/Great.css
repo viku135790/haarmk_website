@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+.great-main-clas {
+  min-height: 700px;
+  width: 100%;
+  background-image: linear-gradient(45deg, rgb(0, 0, 142), rgb(184, 0, 184));
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+
+.great-btn-first {
+  height: auto;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+
+}
+
+.great-firts-para {
+  font-size: 4em;
+  font-weight: bold;
+  width: 100%;
+  color: white;
+  line-height: 1em
+}
+
+.great-secon-para {
+  color: white;
+
+}
+
+
+.great-btn-first button {
+  height: 60px;
+  width: 17rem;
+  color: white;
+  border: 1px solid white;
+  background-color: transparent;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease-in-out;
+  gap: 1rem;
+}
+
+.great-btn-first button:hover {
+  background-color: black;
+  border: none;
+}
+
+.great-btn-first button:hover i {
+  animation: moveRight 0.3s ease-in-out forwards infinite;
+}
+
+@keyframes moveRight {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(20px);
+  }
+}
+
+.great-media {
+  width: 40%;
+  height: 35rem;
+  background-image: url(/src/root-folder/images/teamwork.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  animation: rotateAnimation 5s infinite;
+}
+
+@keyframes rotateAnimation {
+  0% {
+    transform: scale(1) rotateY(0deg);
+  }
+
+  100% {
+    transform: scale(0.95) rotateY(360deg);
+  }
+}
+
+.great-media:hover {
+  transform: scale(0.95);
+  animation: none;
+}
+
+
+@media (min-width: 350px) and (max-width: 750px) {
+
+  .great-btn-first {
+    width: 100%;
+    align-items: center;
+  }
+  .great-media{
+    width: 100%;
+  }
+
+
+}
+
+@media (min-width: 750px) and (max-width: 1400px) {
+  .great-firts-para {
+    font-size: 3em;
+  }
+}

@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.whats-drive-main-conta{
+    min-height: 672px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.what-head{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5em;
+    font-weight: bold;
+
+}
+
+.what-head span{
+    color: red;
+}
+
+.what-conte{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.statement-main-wh{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(228, 228, 228);
+}
+
+.what-heading{
+    width: 80%;
+}
+
+.statement-main-wh h1{
+    font-size: 3.5em;
+    color: rgb(0, 0, 62);
+}
+
+.head-title-what{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(0, 0, 62);
+}
+
+
+.quote-spirit{
+    margin-top: 3rem;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+.statement-main-zsec{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(195, 195, 195);
+    
+}
+
+.statement-main-zsec h1{
+    font-size: 3.5em;
+    color: rgb(0, 0, 62);
+}
+
+
+.statement-main-zsec .quote-spirit{
+    margin-top: 3rem;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: black;
+}
+
+@media (min-width: 750px) and (max-width: 1400px) {
+    
+}
+
+@media (min-width: 350px) and (max-width: 750px) {
+    .whats-drive-main-conta{
+        height: auto;
+        padding-bottom: 2rem;
+    }
+
+    .what-head{
+        font-size: 3em;
+    }
+
+    .what-conte{
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .statement-main-wh{
+        width: 100%;
+    }
+
+    .what-heading{
+        text-align: center;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .statement-main-zsec{
+        width: 100%;
+    }
+
+    .quote-spirit{
+        text-align: left;
+    }
+
+
+}

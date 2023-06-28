@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.sec-secondtemp-backgro {
+    height: 740px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+
+}
+
+.sec-abt-head-new {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.sec-abt-con-new {
+    display: flex;
+    flex-wrap: wrap;
+    height: 80%;
+    width: 100%;
+}
+
+.sec-sec-abtus-img {
+    width: 50%;
+    height: 90%;
+    background-image: url(/src/root-folder/images/mission.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec-abt-conte-new {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    align-items: center;
+}
+
+.sec-abt-conte-new-head {
+    font-size: 1.8em;
+    font-weight: bold;
+    width: 70%;
+}
+
+.sec-abt-conte-new-conte {
+    font-size: 1em;
+    width: 70%;
+}
+
+
+@media (min-width: 750px) and (max-width: 1400px) {
+    .sec-secondtemp-backgro {
+        padding-bottom: 2rem;
+        height: auto;
+    }
+
+    .sec-abt-con-new {
+        align-items: center;
+    }
+
+    .sec-sec-abtus-img {
+        height: 46rem;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 750px) {
+    .sec-secondtemp-backgro {
+        height: auto;
+        padding-bottom: 2rem;
+    }
+
+    .sec-abt-head-new {
+        width: 100%;
+        height: 20%;
+        font-size: 3em;
+    }
+
+    .sec-abt-con-new{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sec-sec-abtus-img {
+        height: 400px;
+        width: 95%;
+    }
+    .sec-abt-conte-new{
+        width: 95%;
+    }
+    .sec-abt-conte-new-head{
+        width: 100%;
+        text-align: center;
+    }
+
+    .sec-abt-conte-new-conte{
+        width: 100%;
+    }
+}

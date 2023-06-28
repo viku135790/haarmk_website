@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav-main-header {
+  box-shadow: 0px 5px 10px rgba(108, 108, 108, 0.49);
+  height: 13vh;
+  line-height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.856);
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+}
+
+.header-white {
+  box-shadow: 0px 5px 10px rgb(255, 255, 255);
+  height: 13vh;
+  line-height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  align-items: center;
+  background-color: white;
+}
+
+.nav-btn-nav {
+  background: none;
+  border: none;
+}
+
+.nav-icon-sp-class {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+ul {
+  display: inline-block;
+}
+
+ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.logo-white h1 {
+  color: rgb(255, 255, 255);
+}
+
+.logo-black h1 {
+  color: rgb(0, 0, 0);
+}
+
+.navigation-head {
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+.navigation-head-mob {
+  text-decoration: none;
+  color: #000000;
+  text-transform: capitalize;
+}
+
+.toggleBtn {
+  display: none;
+  color: cornflowerblue;
+}
+
+.socialIcons i {
+  color: rgb(255, 255, 255);
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+  .socialIcons {
+    display: none;
+  }
+
+  .toggleBtn {
+    display: block;
+  }
+
+  .nav-icon-sp-white {
+    color: rgb(255, 255, 255);
+  }
+
+  .nav-icon-sp-black {
+    color: rgb(0, 0, 0);
+  }
+
+
+  .list {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+    position: absolute;
+    top: 13vh;
+    left: 0;
+    height: 80vh;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 5px 10px rgba(90, 116, 148, 0.3);
+    
+  }
+
+  ul li,
+  ul {
+    display: block;
+    padding-left: 23%;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1100px) {
+
+  .list {
+    width: 68%;
+  }
+
+  ul li {
+    margin-left: 10px;
+  }
+
+  ul {
+    padding-left: 1rem;
+    width: 100%;
+  }
+
+}
+
+@media (min-width: 800px) and (max-width: 1100px) {
+
+  .socialIcons {
+    width: 20%;
+  }
+
+  .nav-main-header {
+    padding: 0 10px;
+  }
+
+}

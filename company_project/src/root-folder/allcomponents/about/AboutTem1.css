@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.fir-about-tem-main{
+    height: 740px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(108, 108, 108, 0.277);
+}
+
+.fir-abt-head-new{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.fir-abt-con-new{
+    display: flex;
+    width: 100%;
+    height: 80%;
+}
+
+.fir-abtus-img-new{
+    width: 50%;
+    height: 90%;
+    background-image: url(/src/root-folder/images/team-abt.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fir-abt-conte-new{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    align-items: center;
+}
+
+.fir-abt-conte-new-head{
+    font-size: 1.8em;
+    font-weight: bold;
+    width: 70%;
+}
+
+.fir-abt-conte-new-conte{
+    font-size: 1em;
+    width: 70%;
+}
+
+
+@media (min-width: 750px) and (max-width: 1400px) {
+    .fir-about-tem-main{
+        height: auto;
+        padding-bottom: 2rem;
+    }
+    .fir-abt-con-new{
+        align-items: center;
+    }
+
+    .fir-abtus-img-new{
+        height: 46rem;
+        width: 50%;
+    }
+
+}
+
+@media (min-width: 350px) and (max-width: 750px) {
+    .fir-about-tem-main{
+        height: auto;
+        padding-bottom: 2rem;
+    }
+
+    .fir-abt-head-new{
+        width: 100%;
+        height: 20%;
+        font-size: 3em;
+    }
+    .fir-abt-con-new{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fir-abt-conte-new{
+        width: 100%;
+        padding: 0rem;
+    }
+    .fir-abt-conte-new-head{
+        width: 95%;
+        text-align: center;
+    }
+    .fir-abt-conte-new-conte{
+        width: 95%;
+    }
+
+    .fir-abtus-img-new{
+        height: 400px;
+        width: 95%;
+    }
+
+
+}

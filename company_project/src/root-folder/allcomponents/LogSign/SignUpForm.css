@@ -1,0 +1,101 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.sign-conta-formm-main-cota {
+    min-height: 800px;
+    height: auto;
+    width: 100%;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.592), rgba(0, 0, 0, 0.51)), url(/src/root-folder/images/signup.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+.sign-completeform {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.sign-completeform p {
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    width: 45%;
+    padding-left: 1.2rem;
+
+}
+
+.sign-completeform form {
+    width: 45%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2rem;
+
+} 
+
+.sign-completeform form input {
+    text-indent: .5rem;
+    height: 2.5rem;
+    width: 40%;
+    outline: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid gray;
+}
+
+.sign-contact-form-details select {
+    width: 40%;
+    outline: none;
+    border: 1px solid gray;
+    height: 2.5rem;
+}
+
+.sign-contact-form-details textarea {
+    width: 90%;
+    height: 5rem;
+    outline: none;
+    border: 1px solid gray;
+    text-indent: .5rem;
+}
+
+.sign-contact-form-details button {
+    width: 40%;
+    height: 2.5rem;
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 22px;
+    transition: all 0.5s ease-in-out;
+}
+
+.sign-contact-form-details button:hover {
+    background-color: white;
+    color: black;
+}
+
+@media (min-width: 350px) and (max-width: 800px) {
+    .sign-completeform {
+        width: 95%;
+    }
+
+    .sign-completeform p {
+        width: 100%;
+    }
+
+    .sign-completeform form {
+        width: 100%;
+
+    }
+}
