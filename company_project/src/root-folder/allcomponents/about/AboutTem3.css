@@ -73,6 +73,9 @@
         height: 46rem;
         width: 50%;
     }
+    .third-abt-head-new{
+        font-size: 40px;
+    }
 }
 
 @media (min-width: 350px) and (max-width: 750px) {

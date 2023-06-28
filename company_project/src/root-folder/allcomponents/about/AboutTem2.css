@@ -74,6 +74,9 @@
     .sec-sec-abtus-img {
         height: 46rem;
     }
+    .sec-abt-head-new{
+        font-size: 40px;
+    }
 }
 
 @media (min-width: 350px) and (max-width: 750px) {

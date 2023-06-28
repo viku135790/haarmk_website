@@ -23,16 +23,16 @@ const AboutTemp1 = () => {
                             <br></br>
                             Welcome to HAARMK infotech, where innovation meets success.
                         </p>
-                        
+
                         <div className="d-flex align-items-center mt-4">
                             <a className="btn btn-primary rounded-pill px-4 me-3" href="">Read More</a>
-                            <a className="btn btn-outline-primary btn-square me-3" href=""><i
-                                className="fab fa-facebook-f"></i></a>
-                            <a className="btn btn-outline-primary btn-square me-3" href=""><i
+                            <a className="btn btn-outline-primary btn-square me-3" href="https://www.facebook.com/profile.php?id=100087551794392&mibextid=ZbWKwL"><i
+                                className="fab fa-facebook-f"></i> </a>
+                            <a className="btn btn-outline-primary btn-square me-3" href="https://twitter.com/Haarmkinfotech?s=08"><i
                                 className="fab fa-twitter"></i></a>
-                            <a className="btn btn-outline-primary btn-square me-3" href=""><i
+                            <a className="btn btn-outline-primary btn-square me-3" href="https://instagram.com/haarmk.infotech?igshid=MzRlODBiNWFlZA=="><i
                                 className="fab fa-instagram"></i></a>
-                            <a className="btn btn-outline-primary btn-square" href=""><i className="fab fa-linkedin-in"></i></a>
+                            <a className="btn btn-outline-primary btn-square" href="https://www.linkedin.com/company/haarmk-infotech-pvt-ltd/"><i className="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                     <div className="col-lg-6">

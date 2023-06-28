@@ -97,3 +97,9 @@
 
 
 }
+
+@media (min-width:750px) and (max-width:1400px){
+  .thir-digi-first-who{
+        font-size: 13px;
+    }
+}

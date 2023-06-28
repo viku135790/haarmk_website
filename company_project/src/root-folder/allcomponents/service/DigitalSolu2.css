@@ -99,3 +99,8 @@
 
 
 }
+@media (min-width:750px) and (max-width: 1400px){
+    .two2-digi-first{
+        font-size: 13px;
+    }
+}

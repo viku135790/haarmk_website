@@ -10,39 +10,42 @@ const Looking = () => {
             </div>
             <div className='looking-seco-conta'>
                 <div className='each-conta-looking'>
-                    <p>Lorem ipsum dolor sit.</p>
+                    <p>Request for Services
+                    </p>
+                    <div></div>
+                </div>
+
+                <div className='each-conta-looking'>
+                    <p>Payment </p>
                     <div></div>
                 </div>
                 <div className='each-conta-looking'>
-                    <p>Lorem ipsum dolor sit.</p>
+                    <p>Carrer </p>
                     <div></div>
                 </div>
                 <div className='each-conta-looking'>
-                    <p>Lorem ipsum dolor sit.</p>
+                    <p>Website Feedback</p>
                     <div></div>
                 </div>
                 <div className='each-conta-looking'>
-                    <p>Lorem ipsum dolor sit.</p>
+                    <p>Technology And Market.</p>
+                    <div></div>
+                </div>
+
+                <div className='each-conta-looking'>
+                    <p>Need Assistance</p>
                     <div></div>
                 </div>
                 <div className='each-conta-looking'>
-                    <p>Lorem ipsum dolor sit.</p>
+                    <p>Facing any bug & errors</p>
                     <div></div>
                 </div>
                 <div className='each-conta-looking'>
-                    <p>Lorem ipsum dolor sit.</p>
+                    <p>Domain and Hosting</p>
                     <div></div>
                 </div>
                 <div className='each-conta-looking'>
-                    <p>Lorem ipsum dolor sit.</p>
-                    <div></div>
-                </div>
-                <div className='each-conta-looking'>
-                    <p>Lorem ipsum dolor sit.</p>
-                    <div></div>
-                </div>
-                <div className='each-conta-looking'>
-                    <p>Lorem ipsum dolor sit.</p>
+                    <p>Hrms </p>
                     <div></div>
                 </div>
             </div>

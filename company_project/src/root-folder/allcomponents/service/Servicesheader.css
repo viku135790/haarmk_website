@@ -36,6 +36,9 @@
 }
 
 @media (min-width: 750px) and (max-width: 1400px) {
+    .ser-head-conte{
+        font-size: 12px;
+    }
 
 }
 

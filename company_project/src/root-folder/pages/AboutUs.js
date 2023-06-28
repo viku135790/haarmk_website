@@ -12,7 +12,7 @@ import "./AboutUs.css"
 
 const AboutUs = () => {
   return (
-    <div>
+    <div className="abou-super-container">
       <div className="abt-video-container">
         <video autoPlay muted loop className="abt-video-background-ab" >
           <source src={abtvdo} type="video/mp4" />
